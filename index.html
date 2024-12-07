@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/animeted.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="flex justify-between text-center items-center">
+        <ul>
+          <li>
+            <a href="#"><img src="./imgs/anime-logo.png" alt="" /></a>
+          </li>
+        </ul>
+        <ul class="flex w-64 gap-8">
+          <li class="cursor-pointer">Home</li>
+          <li class="cursor-pointer">About uc</li>
+          <li class="cursor-pointer">Contact</li>
+        </ul>
+        <ul class="ml-40">
+          <li class="cursor-pointer">LOGIN</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="carousel">
+        <div class="list">
+          <div class="item relative">
+            <figure>
+              <img class="img1 h-[500px] w-[400px]" src="" />
+            </figure>
+            <p
+              class="categor absolute top-[150px] left-[800px] font-serif font-semibold text-5xl"
+            >
+              name:
+            </p>
+            <p
+              class="populations absolute font-serif font-semibold text-xl top-[260px] left-[800px]"
+            >
+              id:
+            </p>
+            <p
+              class="score absolute font-serif font-semibold text-xl top-[290px] left-[800px]"
+            >
+              score:
+            </p>
+            <p
+              class="episodes absolute font-serif font-semibold text-xl top-[320px] left-[800px]"
+            >
+              episodes:
+            </p>
+            <p
+              class="duration absolute font-serif font-semibold text-xl top-[350px] left-[800px]"
+            >
+              duration:
+            </p>
+            <!-- <div class="content">
+              <p class="category">Sport Shoes</p>
+              <h2>NIKE D.01</h2>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                facere ipsa blanditiis quidem dignissimos enim quam corrupti
+                praesentium ipsam assumenda?
+              </p>
+              <div class="more">
+                <button>Add To Cart</button>
+                <button><i class="fa-solid fa-play"></i> See More</button>
+              </div>
+            </div> -->
+          </div>
+          <div class="item relative">
+            <figure>
+              <img class="img2 h-[500px] w-[400px]" src="img/2.png" />
+            </figure>
+            <p
+              class="categor1 absolute top-[150px] left-[800px] font-serif font-semibold text-5xl"
+            >
+              name:
+            </p>
+            <p
+              class="populations1 absolute font-serif font-semibold text-xl top-[270px] left-[800px]"
+            >
+              id:
+            </p>
+            <p
+              class="score1 absolute font-serif font-semibold text-xl top-[300px] left-[800px]"
+            >
+              score:
+            </p>
+            <p
+              class="episodes1 absolute font-serif font-semibold text-xl top-[330px] left-[800px]"
+            >
+              episodes:
+            </p>
+            <p
+              class="duration1 absolute font-serif font-semibold text-xl top-[360px] left-[800px]"
+            >
+              duration:
+            </p>
+            <!-- <div class="content">
+              <p class="category">Sport Shoes</p>
+              <h2>NIKE D.02</h2>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                facere ipsa blanditiis quidem dignissimos enim quam corrupti
+                praesentium ipsam assumenda?
+              </p>
+              <div class="more">
+                <button>Add To Cart</button>
+                <button><i class="fa-solid fa-play"></i> See More</button>
+              </div>
+            </div> -->
+          </div>
+          <div class="item relative">
+            <figure>
+              <img class="img3 h-[500px] w-[400px]" src="img/1.png" />
+            </figure>
+
+            <p
+              class="categor2 absolute top-[150px] left-[800px] font-serif font-semibold text-5xl"
+            >
+              name:
+            </p>
+            <p
+              class="populations2 absolute font-serif font-semibold text-xl top-[430px] left-[800px]"
+            >
+              id:
+            </p>
+            <p
+              class="score2 absolute font-serif font-semibold text-xl top-[460px] left-[800px]"
+            >
+              score:
+            </p>
+            <p
+              class="episodes2 absolute font-serif font-semibold text-xl top-[490px] left-[800px]"
+            >
+              episodes:
+            </p>
+            <p
+              class="duration2 absolute font-serif font-semibold text-xl top-[520px] left-[800px]"
+            >
+              duration:
+            </p>
+            <!-- <div class="content">
+              <p class="category">Sport Shoes</p>
+              <h2>NIKE D.03</h2>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                facere ipsa blanditiis quidem dignissimos enim quam corrupti
+                praesentium ipsam assumenda?
+              </p>
+              <div class="more">
+                <button>Add To Cart</button>
+                <button><i class="fa-solid fa-play"></i> See More</button>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="arrows">
+          <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+          <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="indicators">
+          <div class="number">02</div>
+          <ul>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <div class="flex-wrap flex gap container mx-auto ml-32 wrapper">
+      <!-- <div class="w-[230px] rounded-lg cursor-pointer relative btn_card">
+        <img class="card_img absolute rounded-lg -z-10 ml-3" src="" alt="" />
+        <div class="flex">
+          <p class="cursor-pointer">
+            <i
+              class="fa-brands fa-square-web-awesome-stroke text-2xl ml-5 mt-3 text-[#f5a23e]"
+            ></i>
+          </p>
+          <p class="cursor-pointer">
+            <i
+              class="fa-regular fa-heart text-[#f5a23e] text-2xl ml-40 mt-3"
+            ></i>
+          </p>
+        </div>
+        <div class="flex gap-3 mt-56 ml-5 pl-5 shadow-card">
+          <p class="h-10 w-1 bg-[#f5a23e]"></p>
+          <p class="card_name1 w-36">name: </p>
+        </div>
+      </div>
+      <div class="w-[230px] cursor-pointer rounded-lg relative btn_card">
+        <img class="card_img absolute rounded-lg -z-10 ml-3" src="" alt="" />
+        <div class="flex">
+          <p class="cursor-pointer">
+            <i
+              class="fa-brands fa-square-web-awesome-stroke text-2xl ml-5 mt-3 text-[#f5a23e]"
+            ></i>
+          </p>
+          <p class="cursor-pointer">
+            <i
+              class="fa-regular fa-heart text-[#f5a23e] text-2xl ml-40 mt-3"
+            ></i>
+          </p>
+        </div>
+        <div class="flex gap-3 mt-56 ml-5 pl-5 shadow-card">
+          <p class="h-10 w-1 bg-[#f5a23e]"></p>
+          <p class="card_name1 w-36">name: </p>
+        </div>
+      </div>
+      <div class="w-[230px] cursor-pointer rounded-lg relative btn_card">
+        <img class="card_img absolute rounded-lg -z-10 ml-3" src="" alt="" />
+        <div class="flex">
+          <p class="cursor-pointer">
+            <i
+              class="fa-brands fa-square-web-awesome-stroke text-2xl ml-5 mt-3 text-[#f5a23e]"
+            ></i>
+          </p>
+          <p class="cursor-pointer">
+            <i
+              class="fa-regular fa-heart text-[#f5a23e] text-2xl ml-40 mt-3"
+            ></i>
+          </p>
+        </div>
+        <div class="flex gap-3 mt-56 ml-5 pl-5 shadow-card">
+          <p class="h-10 w-1 bg-[#f5a23e]"></p>
+          <p class="card_name1 w-36">name: </p>
+        </div>
+      </div>
+      <div class="w-[230px] cursor-pointer rounded-lg relative btn_card">
+        <img class="card_img absolute rounded-lg -z-10 ml-3" src="" alt="" />
+        <div class="flex">
+          <p class="cursor-pointer">
+            <i
+              class="fa-brands fa-square-web-awesome-stroke text-2xl ml-5 mt-3 text-[#f5a23e]"
+            ></i>
+          </p>
+          <p class="cursor-pointer">
+            <i
+              class="fa-regular fa-heart text-[#f5a23e] text-2xl ml-40 mt-3"
+            ></i>
+          </p>
+        </div>
+        <div class="flex gap-3 mt-56 ml-5 pl-5 shadow-card">
+          <p class="h-10 w-1 bg-[#f5a23e]"></p>
+          <p class="card_name1 w-36">name: </p>
+        </div>
+      </div>
+      <div class="w-[230px] cursor-pointer rounded-lg relative btn_card">
+        <img class="card_img absolute rounded-lg -z-10 ml-3" src="" alt="" />
+        <div class="flex">
+          <p class="cursor-pointer">
+            <i
+              class="fa-brands fa-square-web-awesome-stroke text-2xl ml-5 mt-3 text-[#f5a23e]"
+            ></i>
+          </p>
+          <p class="cursor-pointer">
+            <i
+              class="fa-regular fa-heart text-[#f5a23e] text-2xl ml-40 mt-3"
+            ></i>
+          </p>
+        </div>
+        <div class="flex gap-3 mt-56 ml-5 pl-5 shadow-card">
+          <p class="h-10 w-1 bg-[#f5a23e]"></p>
+          <p class="card_name1 w-36">name: </p>
+        </div>
+      </div>
+      <div class="w-[230px] cursor-pointer rounded-lg relative btn_card">
+        <img class="card_img absolute rounded-lg -z-10 ml-3" src="" alt="" />
+        <div class="flex">
+          <p class="cursor-pointer">
+            <i
+              class="fa-brands fa-square-web-awesome-stroke text-2xl ml-5 mt-3 text-[#f5a23e]"
+            ></i>
+          </p>
+          <p class="cursor-pointer">
+            <i
+              class="fa-regular fa-heart text-[#f5a23e] text-2xl ml-40 mt-3"
+            ></i>
+          </p>
+        </div>
+        <div class="flex gap-3 mt-56 ml-5 pl-5 shadow-card">
+          <p class="h-10 w-1 bg-[#f5a23e]"></p>
+          <p class="card_name1 w-36">name: </p>
+        </div>
+      </div>
+      <div class="w-[230px] cursor-pointer rounded-lg relative btn_card">
+        <img class="card_img absolute rounded-lg -z-10 ml-3" src="" alt="" />
+        <div class="flex">
+          <p class="cursor-pointer">
+            <i
+              class="fa-brands fa-square-web-awesome-stroke text-2xl ml-5 mt-3 text-[#f5a23e]"
+            ></i>
+          </p>
+          <p class="cursor-pointer">
+            <i
+              class="fa-regular fa-heart text-[#f5a23e] text-2xl ml-40 mt-3"
+            ></i>
+          </p>
+        </div>
+        <div class="flex gap-3 mt-56 ml-5 pl-5 shadow-card">
+          <p class="h-10 w-1 bg-[#f5a23e]"></p>
+          <p class="card_name1 w-36">name: </p>
+        </div>
+      </div>
+      <div class="w-[230px] cursor-pointer rounded-lg relative btn_card">
+        <img class="card_img absolute rounded-lg -z-10 ml-3" src="" alt="" />
+        <div class="flex">
+          <p class="cursor-pointer">
+            <i
+              class="fa-brands fa-square-web-awesome-stroke text-2xl ml-5 mt-3 text-[#f5a23e]"
+            ></i>
+          </p>
+          <p class="cursor-pointer">
+            <i
+              class="fa-regular fa-heart text-[#f5a23e] text-2xl ml-40 mt-3"
+            ></i>
+          </p>
+        </div>
+        <div class="flex gap-3 mt-56 ml-5 pl-5 shadow-card">
+          <p class="h-10 w-1 bg-[#f5a23e]"></p>
+          <p class="card_name1 w-36">name: </p>
+        </div>
+      </div> -->
+    </div>
+    <script src="./js/my.js" type="module"></script>
+  </body>
+</html>
