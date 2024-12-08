@@ -1,7 +1,7 @@
-function createCards({image,name}) {
+function createCards(data) {
   return `
-    <div class="w-[230px]  rounded-lg cursor-pointer relative btn_card">
-        <img class="card_img absolute rounded-lg h-96 -z-10 ml-3" src="${image}" alt="" />
+    <div class="w-[230px]  rounded-lg cursor-pointer relative btn_card" data-id="${data.id}">
+        <img class="card_img absolute rounded-lg h-96 -z-10 ml-3" src="${data.image}" alt="" />
         <div class="flex">
           <p class="cursor-pointer">
             <i
@@ -16,7 +16,7 @@ function createCards({image,name}) {
         </div>
         <div class="flex gap-3 mt-56 ml-5 pl-5 shadow-card">
           <p class="h-10 w-1 bg-[#f5a23e]"></p>
-          <p class="card_name1 w-36">name: ${name}</p>
+          <p class="card_name1 w-36">name: ${data.name}</p>
         </div>
       </div>
     `;
